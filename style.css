@@ -11,7 +11,7 @@ h1 {
 }
 
 a{
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ li a{
   display: block;
   font-size: 18px;
   padding: 20px;
-  color: yellow;
+  color: green;
 }
 
 @media screen and (max-width: 600px) {
