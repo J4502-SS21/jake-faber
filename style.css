@@ -2,5 +2,55 @@ body {
   background: #FFF6E4;
   text-align: center;
   color: black;
+  font-family: 'Noto Serif', serif, Times;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+img{
+  border: 0;
+  width: 60%;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+h2{
+  font-size: 27px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+ul li{
+  list-style-type: none;
+  background: #D5B87E;
+  float: left;
+  display: block;
+}
+
+
+li a{
+  display: block;
+  font-size: 18px;
+  padding: 20px;
+  color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
+}
+
+a:hover img{
+  border: none !important;
+}
+
+a:hover{
+  background-color: black;
+}
 
 }
