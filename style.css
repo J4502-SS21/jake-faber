@@ -2,17 +2,31 @@ body {
   background: #FFF6E4;
   text-align: center;
   color: black;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 200px;
   font-family: 'Noto Serif', serif, Times;
 }
 
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+ul {
+  list-style-type: none;
+}
+
+li a{
+  display: block;
+  font-size: 18px;
+  padding: 20px;
+  color: green;
 }
 
 a{
   color: blue;
   text-decoration: none;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
 }
 
 img{
@@ -26,23 +40,20 @@ h2{
   font-size: 27px;
   font-family: 'Source Sans Pro', sans-serif;
 
-ul li{
-  list-style-type: none;
+
+}
+
   background: #D5B87E;
   float: left;
   display: block;
 }
 
 
-li a{
-  display: block;
-  font-size: 18px;
-  padding: 20px;
-  color: green;
+
 }
 
-@media screen and (max-width: 600px) {
-  ul li {float: none;}
+@media(max-width: 600px) {
+  ul li {width: 50% , float: none;}
 }
 
 a:hover img{
