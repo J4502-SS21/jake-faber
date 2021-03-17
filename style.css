@@ -8,16 +8,6 @@ body {
   font-family: 'Noto Serif', serif, Times;
 }
 
-ul {
-  list-style-type: none;
-}
-
-li a{
-  display: block;
-  font-size: 16px;
-  padding: 200px;
-  color: green;
-}
 
 a{
   color: blue;
@@ -36,6 +26,24 @@ img{
   max-width: 500px;
 }
 
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+ul {
+  list-style-type: none;
+}
+
+li a{
+  display: block;
+  font-size: 16px;
+  padding: 200px;
+  color: green;
+}
+}
+
 h2{
   font-size: 27px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -49,7 +57,12 @@ h2{
 }
 
 
-
+@media (max-width: 600px) {
+.container {
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 100%;
+}
 }
 
 @media(max-width: 600px) {
