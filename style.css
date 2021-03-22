@@ -69,6 +69,13 @@ h2{
   ul li {width: 50% , float: none;}
 }
 
+#menu_trigger{
+  display: block;
+  position: absolute;
+  top: 10px
+  right: 10px
+}
+
 a:hover img{
   border: none !important;
 }
