@@ -98,6 +98,7 @@ h2{
 @media(max-width: 600px) {
   ul li {width: 50% , float: none;}
 }
+#menu_nav {display: :none}
 
 #menu_trigger{
   display: block;
